@@ -1,4 +1,4 @@
 {
-  "type" : "query-server",
-  "url" : "http://localhost:8082"
+  "type" : "lc",
+  "url" : "http://belgianrail.linkedconnections.org/"
 }
