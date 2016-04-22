@@ -1,0 +1,4 @@
+{
+  "type" : "query-server",
+  "url" : "http://localhost:8082"
+}
