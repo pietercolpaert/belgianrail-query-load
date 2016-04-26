@@ -1,4 +1,5 @@
 {
   "type" : "lc",
-  "url" : "http://localhost:8081"
+  "url" : "http://localhost:8081",
+  "enableCache" : true
 }

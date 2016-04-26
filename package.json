@@ -11,7 +11,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "jsonstream": "^1.0.3",
-    "lc-client": "0.0.5",
+    "lc-client": "0.1.x",
     "moment": "^2.12.0",
     "request": "^2.69.0"
   }
