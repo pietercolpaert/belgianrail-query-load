@@ -109,7 +109,6 @@
 {"T":566,"departureStop":"http://irail.be/stations/NMBS/008811676","arrivalStop":"http://irail.be/stations/NMBS/008814001","departureTime":"2015-10-02T03:59:34.000Z","originalDepartureTime":"2015-10-26T20:09:00.000Z"}
 {"T":571,"departureStop":"http://irail.be/stations/NMBS/008891009","arrivalStop":"http://irail.be/stations/NMBS/008892007","departureTime":"2015-10-01T15:00:00.000Z","originalDepartureTime":"2015-10-07T05:09:31.000Z"}
 {"T":577,"departureStop":"http://irail.be/stations/NMBS/008814001","arrivalStop":"http://irail.be/stations/NMBS/008883113","departureTime":"2015-10-01T14:40:23.000Z","originalDepartureTime":"2015-10-30T15:50:00.000Z"}
-{"T":582,"departureStop":"http://irail.be/stations/NMBS/008822004","arrivalStop":"http://irail.be/stations/NMBS/008812005","departureTime":null,"originalDepartureTime":null}
 {"T":588,"departureStop":"http://irail.be/stations/NMBS/008811510","arrivalStop":"http://irail.be/stations/NMBS/008863008","departureTime":"2015-10-01T15:00:00.000Z","originalDepartureTime":"2015-10-02T21:09:48.000Z"}
 {"T":593,"departureStop":"http://irail.be/stations/NMBS/008821006","arrivalStop":"http://irail.be/stations/NMBS/008891660","departureTime":"2015-10-01T14:50:07.000Z","originalDepartureTime":"2015-10-30T14:00:00.000Z"}
 {"T":598,"departureStop":"http://irail.be/stations/NMBS/008892601","arrivalStop":"http://irail.be/stations/NMBS/008813003","departureTime":"2015-10-02T07:50:02.000Z","originalDepartureTime":"2015-10-31T09:00:00.000Z"}
