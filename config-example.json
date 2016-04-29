@@ -1,4 +1,5 @@
 {
   "type" : "lc",
-  "url" : "http://belgianrail.linkedconnections.org/"
+  "url" : "http://belgianrail.linkedconnections.org/",
+  "serverPID" : 1
 }

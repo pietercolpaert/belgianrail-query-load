@@ -22,4 +22,7 @@ if (!program.config) {
 var configFile = program.config,
     config = JSON.parse(fs.readFileSync(configFile, { encoding: 'utf8' }))
 
+//add the config name to the config
+config.name = configFile;
+
 process.stdin.pipe(JSONStream.parse()).pipe(new ExecuteQueryMixTransform(config));
