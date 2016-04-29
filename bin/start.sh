@@ -43,10 +43,10 @@ sort -n -t: -k2 $q2 | ./bin/runner.js -c $lc > results/experiment1-lc.csv &
 pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 sort -n -t: -k2 $q2 | ./bin/runner.js -c $qs > results/experiment1-queryserver.csv &
-pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
-sleep 10;
-sort -n -t: -k2 $q2 | ./bin/runner.js -c $lcnc > results/experiment0-lcnc.csv &
 pidstat -p $2 895 1| grep Average >> benchmarkcpu.log;
+sleep 10;
+sort -n -t: -k2 $q2 | ./bin/runner.js -c $lcnc > results/experiment1-lcnc.csv &
+pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 
 ## Launch Experiment 2
@@ -54,10 +54,10 @@ sort -n -t: -k2 $q3 | ./bin/runner.js -c $lc > results/experiment2-lc.csv &
 pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 sort -n -t: -k2 $q3 | ./bin/runner.js -c $qs > results/experiment2-queryserver.csv &
-pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
-sleep 10;
-sort -n -t: -k2 $q3 | ./bin/runner.js -c $lcnc > results/experiment0-lcnc.csv &
 pidstat -p $2 895 1| grep Average >> benchmarkcpu.log;
+sleep 10;
+sort -n -t: -k2 $q3 | ./bin/runner.js -c $lcnc > results/experiment2-lcnc.csv &
+pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 
 ## Launch Experiment 3
@@ -65,10 +65,10 @@ sort -n -t: -k2 $q4 | ./bin/runner.js -c $lc > results/experiment3-lc.csv&
 pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 sort -n -t: -k2 $q4 | ./bin/runner.js -c $qs > results/experiment3-queryserver.csv &
-pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
-sleep 10;
-sort -n -t: -k2 $q4 | ./bin/runner.js -c $lcnc > results/experiment0-lcnc.csv &
 pidstat -p $2 895 1| grep Average >> benchmarkcpu.log;
+sleep 10;
+sort -n -t: -k2 $q4 | ./bin/runner.js -c $lcnc > results/experiment3-lcnc.csv &
+pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 
 ## Launch Experiment 4
@@ -76,10 +76,10 @@ sort -n -t: -k2 $q5 | ./bin/runner.js -c $lc > results/experiment4-lc.csv&
 pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 sort -n -t: -k2 $q5 | ./bin/runner.js -c $qs > results/experiment4-queryserver.csv &
-pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
-sleep 10;
-sort -n -t: -k2 $q5 | ./bin/runner.js -c $lcnc > results/experiment0-lcnc.csv &
 pidstat -p $2 895 1| grep Average >> benchmarkcpu.log;
+sleep 10;
+sort -n -t: -k2 $q5 | ./bin/runner.js -c $lcnc > results/experiment4-lcnc.csv &
+pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 
 ## Launch Experiment 5
@@ -87,8 +87,8 @@ sort -n -t: -k2 $q6 | ./bin/runner.js -c $lc > results/experiment5-lc.csv&
 pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 sort -n -t: -k2 $q6 | ./bin/runner.js -c $qs > results/experiment5-queryserver.csv &
-pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
-sleep 10;
-sort -n -t: -k2 $q6 | ./bin/runner.js -c $lcnc > results/experiment0-lcnc.csv &
 pidstat -p $2 895 1| grep Average >> benchmarkcpu.log;
+sleep 10;
+sort -n -t: -k2 $q6 | ./bin/runner.js -c $lcnc > results/experiment5-lcnc.csv &
+pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;

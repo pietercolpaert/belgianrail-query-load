@@ -1,6 +1,5 @@
 {
   "type" : "lc",
   "url" : "http://localhost:8081",
-  "enableCache" : false ,
-  "serverPID" : 7805
+  "enableCache" : false
 }
