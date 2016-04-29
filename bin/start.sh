@@ -32,10 +32,10 @@ sort -n -t: -k2 $q1 | ./bin/runner.js -c $lc > results/experiment0-lc.csv &
 pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 sort -n -t: -k2 $q1 | ./bin/runner.js -c $qs > results/experiment0-queryserver.csv &
-pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
+pidstat -p $2 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 sort -n -t: -k2 $q1 | ./bin/runner.js -c $lcnc > results/experiment0-lcnc.csv &
-pidstat -p $2 895 1| grep Average >> benchmarkcpu.log;
+pidstat -p $1 895 1| grep Average >> benchmarkcpu.log;
 sleep 10;
 
 ## Launch Experiment 1
